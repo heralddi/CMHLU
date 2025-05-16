@@ -1,5 +1,5 @@
 # CMHLU
-## README: Modeling Non-Native Speaker Use of Non-Veridical Preferential Predicates + Wh-Clauses with RSA
+## Modeling Non-Native Speaker Use of Non-Veridical Preferential Predicates + Wh-Clauses with RSA
 
 **Coursework for:** Cognitive models of human language understanding
 
