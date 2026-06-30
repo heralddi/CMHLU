@@ -67,12 +67,20 @@ class RSAModel:
 
         self.truth_table = [[float(cell) for cell in row] for row in self.truth_table]
         expected_shape = (len(self.messages), len(self.objects))
-        actual_shape = (len(self.truth_table), len(self.truth_table[0]) if self.truth_table else 0)
+        actual_shape = (
+            len(self.truth_table),
+            len(self.truth_table[0]) if self.truth_table else 0,
+        )
         if actual_shape != expected_shape:
-            raise ValueError("truth_table must have shape (number of messages, number of objects)")
+            raise ValueError(
+                "truth_table must have shape "
+                "(number of messages, number of objects)"
+            )
         for row in self.truth_table:
             if len(row) != len(self.objects):
-                raise ValueError("truth_table rows must all match the number of objects")
+                raise ValueError(
+                    "truth_table rows must all match the number of objects"
+                )
             if any(cell < 0 for cell in row):
                 raise ValueError("truth_table must not contain negative values")
 
@@ -88,7 +96,9 @@ class RSAModel:
         """Literal listener P(object | message)."""
         weighted_truth = []
         for row in self.truth_table:
-            weighted_truth.append([truth * prior for truth, prior in zip(row, self.prior_o)])
+            weighted_truth.append(
+                [truth * prior for truth, prior in zip(row, self.prior_o)]
+            )
         return normalize_rows(weighted_truth)
 
     def s1(self) -> Matrix:
@@ -117,6 +127,9 @@ class RSAModel:
         for message_index in range(len(self.messages)):
             scores = []
             for object_index in range(len(self.objects)):
-                scores.append(speaker[object_index][message_index] * self.prior_o[object_index])
+                scores.append(
+                    speaker[object_index][message_index]
+                    * self.prior_o[object_index]
+                )
             rows_by_message.append(normalize_scores(scores))
         return rows_by_message
