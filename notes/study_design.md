@@ -4,7 +4,7 @@ This is a first-pass design note. It is meant to connect the toy RSA model to a 
 
 ## Question
 
-Do listeners interpret a marked `hope-wh` sentence differently when they think the speaker is a native English speaker versus an L2 English speaker?
+Do listeners expect a marked `hope-wh` sentence to be more likely when the speaker is described as an advanced L2 English speaker rather than a native English speaker?
 
 ## Participants
 
@@ -20,20 +20,28 @@ Possible factors:
 
 Example item pair:
 
-- Standard: `I hope that the meeting goes well.`
-- Marked: `I hope what will happen at the meeting.`
+| Condition | Example |
+| --- | --- |
+| Standard declarative complement | `I hope that the meeting goes well.` |
+| Marked wh-complement | `I hope what will happen at the meeting.` |
+| Standard embedded wh-control | `I wonder what will happen at the meeting.` |
 
 ## Measures
 
 Participants could rate:
 
 - how acceptable or natural the sentence sounds
+- how likely this speaker would be to say the sentence
 - how likely the speaker is expressing a positive desire
 - how likely the speaker is asking for information
 
+## Predictions
+
+The current RSA model predicts a speaker-choice effect: `hope_what_S` should be judged more likely under an L2-speaker description than under a native-speaker description. It does not yet make a strong prediction that the final listener interpretation of `hope_what_S` changes, because the current truth table maps the marked message directly to the positive-desire state.
+
 ## Model connection
 
-In the RSA model, a listener's assumptions about speaker background are represented with message costs and message priors. If listeners are more willing to infer a coherent desire from `hope what S` under the L2-speaker prompt, that would match the direction of the toy model.
+In the RSA model, a listener's assumptions about speaker background are represented with message costs and message priors. If listeners are more willing to treat `hope what S` as a plausible utterance under the L2-speaker prompt, that would match the direction of the toy model.
 
 ## Current limits
 

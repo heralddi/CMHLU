@@ -1,9 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430">
 <rect width="100%" height="100%" fill="white"/>
-<text x="380" y="32" text-anchor="middle" font-family="Arial" font-size="22">Cost sensitivity for marked message</text>
-<line x1="70" y1="340" x2="700" y2="340" stroke="black"/>
-<line x1="70" y1="80" x2="70" y2="340" stroke="black"/>
-<polyline points="70.0,256.7 90.7,272.4 111.3,286.2 132.0,297.8 152.7,307.3 173.3,314.9 194.0,320.9 214.7,325.6 235.3,329.2 256.0,331.9 276.7,333.9 297.3,335.5 318.0,336.6 338.7,337.5 359.3,338.1 380.0,338.6 400.7,339.0 421.3,339.2 442.0,339.4 462.7,339.6 483.3,339.7 504.0,339.8 524.7,339.8 545.3,339.9 566.0,339.9 586.7,339.9 607.3,339.9 628.0,340.0 648.7,340.0 669.3,340.0 690.0,340.0" fill="none" stroke="#4c78a8" stroke-width="3"/>
-<text x="380" y="400" text-anchor="middle" font-family="Arial" font-size="15">Cost assigned to hope_what_S</text>
-<text x="20" y="220" transform="rotate(-90 20,220)" font-family="Arial" font-size="15">S1(hope_what_S | desire_positive_S)</text>
+<text x="380" y="32" text-anchor="middle" font-family="Arial" font-size="22">Cost sensitivity</text>
+<line x1="80" y1="340" x2="700" y2="340" stroke="black"/>
+<line x1="80" y1="80" x2="80" y2="340" stroke="black"/>
+<text x="390" y="405" text-anchor="middle" font-family="Arial" font-size="15">Cost assigned to hope_what_S</text>
+<text x="24" y="220" transform="rotate(-90 24,220)" text-anchor="middle" font-family="Arial" font-size="15">S1(hope_what_S | desire_positive_S)</text>
+<text x="70" y="345" text-anchor="end" font-family="Arial" font-size="12">0</text>
+<text x="70" y="220" text-anchor="end" font-family="Arial" font-size="12">0.5</text>
+<text x="70" y="95" text-anchor="end" font-family="Arial" font-size="12">1.0</text>
+<polyline points="80.0,256.7 100.7,272.4 121.3,286.2 142.0,297.8 162.7,307.3 183.3,314.9 204.0,320.9 224.7,325.6 245.3,329.2 266.0,331.9 286.7,333.9 307.3,335.5 328.0,336.6 348.7,337.5 369.3,338.1 390.0,338.6 410.7,339.0 431.3,339.2 452.0,339.4 472.7,339.6 493.3,339.7 514.0,339.8 534.7,339.8 555.3,339.9 576.0,339.9 596.7,339.9 617.3,339.9 638.0,340.0 658.7,340.0 679.3,340.0 700.0,340.0" fill="none" stroke="#4c78a8" stroke-width="3"/>
+<circle cx="80.0" cy="256.7" r="3" fill="#4c78a8"/>
+<circle cx="142.0" cy="297.8" r="3" fill="#4c78a8"/>
+<circle cx="204.0" cy="320.9" r="3" fill="#4c78a8"/>
+<circle cx="266.0" cy="331.9" r="3" fill="#4c78a8"/>
+<circle cx="328.0" cy="336.6" r="3" fill="#4c78a8"/>
+<circle cx="390.0" cy="338.6" r="3" fill="#4c78a8"/>
+<circle cx="452.0" cy="339.4" r="3" fill="#4c78a8"/>
+<circle cx="514.0" cy="339.8" r="3" fill="#4c78a8"/>
+<circle cx="576.0" cy="339.9" r="3" fill="#4c78a8"/>
+<circle cx="638.0" cy="340.0" r="3" fill="#4c78a8"/>
+<circle cx="700.0" cy="340.0" r="3" fill="#4c78a8"/>
 </svg>
