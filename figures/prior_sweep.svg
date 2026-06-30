@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430">
+<rect width="100%" height="100%" fill="white"/>
+<text x="380" y="32" text-anchor="middle" font-family="Arial" font-size="22">Prior sensitivity</text>
+<line x1="80" y1="340" x2="700" y2="340" stroke="black"/>
+<line x1="80" y1="80" x2="80" y2="340" stroke="black"/>
+<text x="390" y="405" text-anchor="middle" font-family="Arial" font-size="15">Prior assigned to hope_what_S</text>
+<text x="24" y="220" transform="rotate(-90 24,220)" text-anchor="middle" font-family="Arial" font-size="15">S1(hope_what_S | desire_positive_S)</text>
+<text x="70" y="345" text-anchor="end" font-family="Arial" font-size="12">0</text>
+<text x="70" y="220" text-anchor="end" font-family="Arial" font-size="12">0.5</text>
+<text x="70" y="95" text-anchor="end" font-family="Arial" font-size="12">1.0</text>
+<polyline points="80.0,340.0 111.0,337.7 142.0,335.4 173.0,333.1 204.0,330.7 235.0,328.2 266.0,325.7 297.0,323.1 328.0,320.4 359.0,317.7 390.0,314.9 421.0,312.1 452.0,309.1 483.0,306.1 514.0,303.0 545.0,299.9 576.0,296.6 607.0,293.3 638.0,289.8 669.0,286.3 700.0,282.7" fill="none" stroke="#4c78a8" stroke-width="3"/>
+<circle cx="80.0" cy="340.0" r="3" fill="#4c78a8"/>
+<circle cx="142.0" cy="335.4" r="3" fill="#4c78a8"/>
+<circle cx="204.0" cy="330.7" r="3" fill="#4c78a8"/>
+<circle cx="266.0" cy="325.7" r="3" fill="#4c78a8"/>
+<circle cx="328.0" cy="320.4" r="3" fill="#4c78a8"/>
+<circle cx="390.0" cy="314.9" r="3" fill="#4c78a8"/>
+<circle cx="452.0" cy="309.1" r="3" fill="#4c78a8"/>
+<circle cx="514.0" cy="303.0" r="3" fill="#4c78a8"/>
+<circle cx="576.0" cy="296.6" r="3" fill="#4c78a8"/>
+<circle cx="638.0" cy="289.8" r="3" fill="#4c78a8"/>
+<circle cx="700.0" cy="282.7" r="3" fill="#4c78a8"/>
+</svg>
